@@ -4,9 +4,9 @@
 
 <form (submit)="addName()">
   <input [(ngModel)]="newName" name="newName" placeholder="Awesome Computer Scientist">
-  <button type="submit">Add</button>
+  <button class="btn btn-primary" type="submit">Add</button>
 </form>
-
+<div class="glyphicon glyphicon-plus"></div>
 <ul>
   <li *ngFor="let name of names">{{name}}</li>
 </ul>
