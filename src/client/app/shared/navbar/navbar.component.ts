@@ -10,4 +10,10 @@ import { Component } from '@angular/core';
   styleUrls: ['navbar.component.css'],
 })
 
-export class NavbarComponent {}
+export class NavbarComponent {
+  public cartShown: boolean = false;
+  toggleCart(){
+    this.cartShown = !this.cartShown;
+    console.log('toggling cart');
+  }
+}

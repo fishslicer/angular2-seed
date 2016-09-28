@@ -13,7 +13,8 @@ import { NameListService } from '../shared/index';
 
 export class HomeComponent implements OnInit {
 
-  newName: string = '';
+  //newName: string = '';
+  searchTerm: string = '';
   errorMessage: string;
   names: any[] = [];
 
@@ -29,13 +30,13 @@ export class HomeComponent implements OnInit {
    * Get the names OnInit
    */
   ngOnInit() {
-    this.getNames();
+    this.getItems();
   }
 
   /**
    * Handle the nameListService observable
    */
-  getNames() {
+  getItems() {
     this.nameListService.get()
 		     .subscribe(
 		       names => this.names = names,
@@ -49,8 +50,9 @@ export class HomeComponent implements OnInit {
    */
   addName(): boolean {
     // TODO: implement nameListService.post
-    this.names.push(this.newName);
-    this.newName = '';
+    this.names.push(this.searchTerm);
+    console.log(this.searchTerm);
+    this.searchTerm = '';
     return false;
   }
 

@@ -1,10 +1,10 @@
 <p>
-  Howdy! Here's a list of awesome computer scientists. Do you know any others? Add to the list yourself.
+  Howdy! it's high noon!
 </p>
 
 <form (submit)="addName()">
-  <input [(ngModel)]="newName" name="newName" placeholder="Awesome Computer Scientist">
-  <button class="btn btn-primary" type="submit">Add</button>
+  <input [(ngModel)]="searchTerm" name="newName" placeholder="Search">
+  <button class="btn btn-secondary" type="submit">Add</button>
 </form>
 <div class="glyphicon glyphicon-plus"></div>
 <ul>

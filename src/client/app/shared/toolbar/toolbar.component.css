@@ -16,8 +16,12 @@ h1 {
 
 .more {
   background: url("./assets/svg/more.svg");
-  float: right;
+  float: right !important;
   height: 24px;
   margin-top: 12px;
   width: 24px;
+}
+
+button {
+  float: right;
 }

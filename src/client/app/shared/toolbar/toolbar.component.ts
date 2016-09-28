@@ -1,4 +1,5 @@
 import { Component} from '@angular/core';
+import { CartComponent } from '../cart/cart.component'
 
 /**
  * This class represents the toolbar component.
@@ -10,5 +11,7 @@ import { Component} from '@angular/core';
   styleUrls: ['toolbar.component.css']
 })
 
-export class ToolbarComponent {}
+export class ToolbarComponent {
+
+}
 
