@@ -6,6 +6,7 @@ import { RouterModule } from '@angular/router';
 import { ToolbarComponent } from './toolbar/index';
 import { NavbarComponent } from './navbar/index';
 import { NameListService } from './name-list/index';
+import { InventoryListService } from './inventory-list/index';
 import { CartComponent } from './cart/index';
 
 /**
@@ -22,7 +23,7 @@ export class SharedModule {
   static forRoot(): ModuleWithProviders {
     return {
       ngModule: SharedModule,
-      providers: [NameListService]
+      providers: [NameListService, InventoryListService]
     };
   }
 }

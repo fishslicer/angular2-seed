@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { NameListService } from '../shared/index';
+import { NameListService, InventoryListService } from '../shared/index';
+// import { InventoryListService } from '../shared/index';
 
 /**
  * This class represents the lazy loaded HomeComponent.
@@ -17,6 +18,7 @@ export class HomeComponent implements OnInit {
   searchTerm: string = '';
   errorMessage: string;
   names: any[] = [];
+  inventory: any[] = [];
 
   /**
    * Creates an instance of the HomeComponent with the injected
@@ -24,13 +26,14 @@ export class HomeComponent implements OnInit {
    *
    * @param {NameListService} nameListService - The injected NameListService.
    */
-  constructor(public nameListService: NameListService) {}
+  constructor(public nameListService: NameListService, public inventoryListService: InventoryListService) {}
 
   /**
    * Get the names OnInit
    */
   ngOnInit() {
     this.getItems();
+    this.getInventory();
   }
 
   /**
@@ -42,6 +45,15 @@ export class HomeComponent implements OnInit {
 		       names => this.names = names,
 		       error =>  this.errorMessage = <any>error
 		       );
+  }
+
+  getInventory() {
+    this.inventoryListService.get()
+      .subscribe(
+        inventory => this.inventory = inventory,
+        error =>  this.errorMessage = <any>error
+      );
+
   }
 
   /**
