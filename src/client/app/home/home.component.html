@@ -1,6 +1,4 @@
-<p>
-  Howdy! it's high noon!
-</p>
+
 
 <!--<form (submit)="addName()">
   <input [(ngModel)]="searchTerm" name="newName" placeholder="Search">
@@ -10,45 +8,25 @@
 <ul>
   <li *ngFor="let name of names">{{name}}</li>
 </ul>-->
+<br>
 <input [(ngModel)]="searchTerm" placeholder="Search">
-<!--<ul>
-  <li *ngFor="let item of inventory">{{item.name}}</li>
-</ul>-->
-<div id="itemCarousel" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-    <li data-target="#myCarousel" data-slide-to="3"></li>
-  </ol>
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="img_chania.jpg" alt="Chania">
-    </div>
+<table>
+  <tr>
+    <td>Item</td>
+    <td>Tag</td>
+    <td>Add to Cart</td>
+  </tr>
+  <tr *ngFor="let item of inventory">
+    <td>{{item.name}}</td>
+    <td *ngIf="item.tags[0]">{{item.tags[0].tag}}</td>
+    <td>
+      <button id="add-to-cart-btn" class="btn btn-primary btn-sm">
+        <span class="glyphicon glyphicon-plus"></span>
+      </button>
+      <input id="cart-quantity" placeholder="1">
+    </td>
+  </tr>
+</table>
 
-    <div class="item">
-      <img src="img_chania2.jpg" alt="Chania">
-    </div>
-
-    <div class="item">
-      <img src="img_flower.jpg" alt="Flower">
-    </div>
-
-    <div class="item">
-      <img src="img_flower2.jpg" alt="Flower">
-    </div>
-  </div>
-
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<button type="button" class="btn btn-danger">?</button>
 
 

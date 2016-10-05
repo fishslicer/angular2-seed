@@ -16,3 +16,16 @@ ul {
   width: 70%;
   margin: auto;
 }
+
+.btn-sm {
+  padding: 10px 10px;
+  font-size: 22px;
+  line-height: normal;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+#cart-quantity{
+  width: 40px;
+  text-align: center;
+}

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NameListService, InventoryListService } from '../shared/index';
-// import { InventoryListService } from '../shared/index';
+//import 'owlcarousel/owl-carousel/owl.carousel';
 
 /**
  * This class represents the lazy loaded HomeComponent.
