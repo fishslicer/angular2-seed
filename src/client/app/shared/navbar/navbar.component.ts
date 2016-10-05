@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 
 /**
  * This class represents the navigation bar component.
@@ -12,8 +12,11 @@ import { Component } from '@angular/core';
 
 export class NavbarComponent {
   public cartShown: boolean = false;
+  @Output() cartShownOut = new EventEmitter<boolean>();
+
   toggleCart(){
     this.cartShown = !this.cartShown;
+    this.cartShownOut.emit(this.cartShown);
     console.log('toggling cart');
   }
 }

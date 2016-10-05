@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import {Component, Input, ElementRef} from '@angular/core';
 import { Config} from './shared/index';
+import { NavbarComponent } from './shared/navbar/navbar.component';
 
 /**
  * This class represents the main application component. Within the @Routes annotation is the configuration of the
@@ -12,7 +13,22 @@ import { Config} from './shared/index';
 })
 
 export class AppComponent {
-  constructor() {
+  //private navbarComp = NavbarComponent;
+  cartStatus: boolean;
+  constructor(private elementRef: ElementRef) {
     console.log('Environment config', Config);
+
+  }
+  //this.cartStatus = this.elementRef.nativeElement.getAttribute('cartToggler');
+
+  /*checkCartStatus(){
+    return this.cartStatus;
+  }*/
+  cartShownOut(passedBool: boolean){
+    this.cartStatus = passedBool;
+    console.log('cartShownOut');
+  }
+  getCartStatus(){
+    return this.cartStatus;
   }
 }

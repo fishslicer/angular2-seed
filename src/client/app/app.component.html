@@ -1,3 +1,5 @@
 <sd-toolbar></sd-toolbar>
-<sd-navbar></sd-navbar>
+<sd-navbar (cartShownOut)="cartShownOut($event)"></sd-navbar>
+
+<sd-cart *ngIf="getCartStatus()"></sd-cart>
 <router-outlet></router-outlet>
