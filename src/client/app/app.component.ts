@@ -1,6 +1,9 @@
 import {Component, Input, ElementRef} from '@angular/core';
 import { Config} from './shared/index';
 import { NavbarComponent } from './shared/navbar/navbar.component';
+import {LoginComponent} from './shared/login/login.component';
+import {PrivateComponent} from './shared/login/private.component';
+
 
 /**
  * This class represents the main application component. Within the @Routes annotation is the configuration of the
