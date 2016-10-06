@@ -19,14 +19,10 @@ export class AppComponent {
     console.log('Environment config', Config);
 
   }
-  //this.cartStatus = this.elementRef.nativeElement.getAttribute('cartToggler');
 
-  /*checkCartStatus(){
-    return this.cartStatus;
-  }*/
   cartShownOut(passedBool: boolean){
     this.cartStatus = passedBool;
-    console.log('cartShownOut');
+    //console.log('cartShownOut');
   }
   getCartStatus(){
     return this.cartStatus;

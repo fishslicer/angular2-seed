@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NameListService, InventoryListService } from '../shared/index';
+import { Search } from './search.pipe';
 //import 'owlcarousel/owl-carousel/owl.carousel';
 
 /**
@@ -9,7 +10,8 @@ import { NameListService, InventoryListService } from '../shared/index';
   moduleId: module.id,
   selector: 'sd-home',
   templateUrl: 'home.component.html',
-  styleUrls: ['home.component.css'],
+  styleUrls: ['home.component.css']
+
 })
 
 export class HomeComponent implements OnInit {

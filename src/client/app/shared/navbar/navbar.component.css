@@ -21,4 +21,7 @@ nav .nav-selection {
 nav .nav-selection.router-link-active {
   color: #106cc8;
 }
+nav .nav-selection.glyphicon{
+  float: right;
+}
 

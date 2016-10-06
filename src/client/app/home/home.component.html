@@ -16,7 +16,7 @@
     <td>Tag</td>
     <td>Add to Cart / Quantity</td>
   </tr>
-  <tr *ngFor="let item of inventory">
+  <tr *ngFor="let item of (inventory)">
     <td>{{item.name}}</td>
     <td *ngIf="item.tags[0]">{{item.tags[0].tag}}</td>
     <td>
