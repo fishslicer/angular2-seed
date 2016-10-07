@@ -4,12 +4,13 @@ import {Router} from '@angular/router';
 export class User {
   constructor(
     public email: string,
+    public name: string,
     public password: string) { }
 }
 
 var users = [
-  new User('admin@admin.com','admin'),
-  new User('user1@gmail.com','user1')
+  new User('admin@admin.com','admin','admin'),
+  new User('user1@gmail.com','bobby','user1')
 ];
 
 @Injectable()
@@ -35,12 +36,17 @@ export class AuthenticationService {
   }
 
   checkCredentials( ){
-    console.log(localStorage.getItem("user") === null);
+    //console.log(localStorage.getItem("user") === null);
     if (localStorage.getItem("user") === null){
       //this._router.navigate(['login']);
       //console.log('true');
       return false;
     }
     else return true;
+  }
+
+  getUser(){
+    console.log(localStorage.getItem("user").name);
+    return localStorage.getItem("user");
   }
 }

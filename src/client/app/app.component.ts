@@ -3,6 +3,7 @@ import { Config} from './shared/index';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import {LoginComponent} from './shared/login/login.component';
 import {PrivateComponent} from './shared/login/private.component';
+import {AuthenticationService} from './shared/login/authentication.service';
 
 
 /**
@@ -13,12 +14,13 @@ import {PrivateComponent} from './shared/login/private.component';
   moduleId: module.id,
   selector: 'sd-app',
   templateUrl: 'app.component.html',
+  providers: [AuthenticationService]
 })
 
 export class AppComponent {
   //private navbarComp = NavbarComponent;
   cartStatus: boolean;
-  constructor(private elementRef: ElementRef) {
+  constructor(private elementRef: ElementRef, private _service:AuthenticationService) {
     console.log('Environment config', Config);
 
   }
@@ -30,4 +32,20 @@ export class AppComponent {
   getCartStatus(){
     return this.cartStatus;
   }
+  getUser(){
+    return this._service.getUser();
+  }
+  checkCredentials(){
+    return this._service.checkCredentials();
+  }
+
 }
+
+/*
+constructor(
+  private _service:AuthenticationService){}
+
+ngOnInit(){
+  this._service.checkCredentials();
+}
+*/

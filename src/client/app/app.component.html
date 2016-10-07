@@ -1,4 +1,5 @@
 <sd-toolbar></sd-toolbar>
 <sd-navbar (cartShownOut)="cartShownOut($event)"></sd-navbar>
 <sd-cart *ngIf="getCartStatus()"></sd-cart>
+<!--<p *ngIf="checkCredentials()">Hello {{getUser().name}}</p>-->
 <router-outlet></router-outlet>
