@@ -1,5 +1,8 @@
 <nav>
   <a class="nav-selection" [routerLink]="['/']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">SHOP</a>
   <a class="nav-selection" [routerLink]="['/about']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">ACCOUNT</a>
+  <a *ngIf="!checkCredentials()" class="nav-selection" [routerLink]="['/login']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">LOGIN</a>
+  <a *ngIf="checkCredentials()" class="nav-selection" (click)="logout()">LOGOUT</a>
+
   <span (click)="toggleCart()" class="nav-selection glyphicon glyphicon-shopping-cart" ></span>
 </nav>

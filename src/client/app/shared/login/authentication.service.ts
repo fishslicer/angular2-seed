@@ -20,14 +20,14 @@ export class AuthenticationService {
 
   logout() {
     localStorage.removeItem("user");
-    this._router.navigate(['Login']);
+    this._router.navigate(['']);
   }
 
   login(user){
     var authenticatedUser = users.find(u => u.email === user.email);
     if (authenticatedUser){
       localStorage.setItem("user", authenticatedUser);
-      this._router.navigate(['Home']);
+      this._router.navigate(['']);
       return true;
     }
     return false;
@@ -35,8 +35,12 @@ export class AuthenticationService {
   }
 
   checkCredentials( ){
+    console.log(localStorage.getItem("user") === null);
     if (localStorage.getItem("user") === null){
-      this._router.navigate(['Login']);
+      //this._router.navigate(['login']);
+      //console.log('true');
+      return false;
     }
+    else return true;
   }
 }

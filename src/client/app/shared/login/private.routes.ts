@@ -3,7 +3,7 @@ import { PrivateComponent } from './index';
 
 export const PrivateRoutes: Route[] = [
   {
-    path: '',
+    path: 'private',
     component: PrivateComponent
   }
 ];
