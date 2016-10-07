@@ -20,7 +20,7 @@
     <td>{{item.name}}</td>
     <td *ngIf="item.tags[0]">{{item.tags[0].tag}}</td>
     <td>
-      <button id="add-to-cart-btn" class="btn btn-primary btn-sm">
+      <button id="add-to-cart-btn" class="btn btn-primary btn-sm" (click)="addToCart(item)">
         <span class="glyphicon glyphicon-plus"></span>
       </button>
       <input id="cart-quantity" placeholder="1">

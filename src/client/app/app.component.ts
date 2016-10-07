@@ -4,6 +4,7 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import {LoginComponent} from './shared/login/login.component';
 import {PrivateComponent} from './shared/login/private.component';
 import {AuthenticationService} from './shared/login/authentication.service';
+import { CartService } from './shared/cart/cart.service';
 
 
 /**
@@ -14,7 +15,7 @@ import {AuthenticationService} from './shared/login/authentication.service';
   moduleId: module.id,
   selector: 'sd-app',
   templateUrl: 'app.component.html',
-  providers: [AuthenticationService]
+  providers: [AuthenticationService, CartService]
 })
 
 export class AppComponent {

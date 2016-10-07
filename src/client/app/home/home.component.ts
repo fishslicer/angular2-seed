@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NameListService, InventoryListService } from '../shared/index';
 import { Search } from './search.pipe';
+import {CartService} from '../shared/cart/cart.service';
 //import 'owlcarousel/owl-carousel/owl.carousel';
 
 /**
@@ -10,7 +11,8 @@ import { Search } from './search.pipe';
   moduleId: module.id,
   selector: 'sd-home',
   templateUrl: 'home.component.html',
-  styleUrls: ['home.component.css']
+  styleUrls: ['home.component.css'],
+  providers: [CartService]
 
 })
 
@@ -28,7 +30,9 @@ export class HomeComponent implements OnInit {
    *
    * @param {NameListService} nameListService - The injected NameListService.
    */
-  constructor(public nameListService: NameListService, public inventoryListService: InventoryListService) {}
+  constructor(public nameListService: NameListService,
+              public inventoryListService: InventoryListService,
+              private cartService:CartService) {}
 
   /**
    * Get the names OnInit
@@ -58,6 +62,10 @@ export class HomeComponent implements OnInit {
 
   }
 
+  addToCart(item){
+    this.cartService.addItem(item);
+    console.log('item added to cart');
+  }
   /**
    * Pushes a new name onto the names array
    * @return {boolean} false to prevent default form submit behavior to refresh the page.

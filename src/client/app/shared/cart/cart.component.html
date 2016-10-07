@@ -1,3 +1,5 @@
 <!--<div class="glyphicon glyphicon-shopping-cart"></div>-->
-<p>WIP</p>
-
+<table>
+  <tr *ngFor="let item of cart">-{{item.name}}-</tr>
+</table>
+<button (click)="checkout()">Checkout</button>
