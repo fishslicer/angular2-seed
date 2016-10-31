@@ -11,8 +11,7 @@ import {CartService} from '../shared/cart/cart.service';
   moduleId: module.id,
   selector: 'sd-home',
   templateUrl: 'home.component.html',
-  styleUrls: ['home.component.css'],
-  providers: [CartService]
+  styleUrls: ['home.component.css']
 
 })
 

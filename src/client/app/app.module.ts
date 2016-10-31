@@ -9,6 +9,7 @@ import { Ng2BootstrapModule } from 'ng2-bootstrap/ng2-bootstrap';
 import { AboutModule } from './about/about.module';
 import { HomeModule } from './home/home.module';
 import { SharedModule } from './shared/shared.module';
+import { CartService } from './shared/cart/cart.service';
 
 
 import {LoginModule} from './shared/login/login.module';
@@ -22,7 +23,7 @@ import {Search} from "./home/search.pipe";
   providers: [{
     provide: APP_BASE_HREF,
     useValue: '<%= APP_BASE %>'
-  }],
+  }, CartService],
   bootstrap: [AppComponent]
 
 })
