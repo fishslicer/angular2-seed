@@ -10,7 +10,7 @@ import { AboutModule } from './about/about.module';
 import { HomeModule } from './home/home.module';
 import { SharedModule } from './shared/shared.module';
 import { CartService } from './shared/cart/cart.service';
-
+import { HistoryService} from './guesser/history.service';
 
 import {LoginModule} from './shared/login/login.module';
 import {PrivateModule} from './shared/login/private.module';
@@ -23,7 +23,7 @@ import {Search} from "./home/search.pipe";
   providers: [{
     provide: APP_BASE_HREF,
     useValue: '<%= APP_BASE %>'
-  }, CartService],
+  }, CartService, HistoryService],
   bootstrap: [AppComponent]
 
 })

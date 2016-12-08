@@ -16,13 +16,16 @@ export class CartComponent implements OnInit{
   public subscription: any;
   constructor(private cartService:CartService){
     //this.cartService.getCart().then(cart => this.cart = cart);
-    this.cart = this.cartService.getCart();
+    /*this.cart = this.cartService.getCart();
     if (!this.cart)
       console.log('error getting cart');
-    else console.log(this.cart.length + ' got cart');
+    else console.log(this.cart.length + ' got cart');*/
+
   }
   //lol
   ngOnInit(){
+    this.subscription = this.cartService.getCartEmitter()
+      .subscribe(cart => {this.cartService.getCart(); this.cart = cart});
     /*this.cartService.getCart()
       .subscribe(cart => this.getCartService());*/
     /*this.cartService.getCart()
@@ -30,6 +33,9 @@ export class CartComponent implements OnInit{
         cart => this.cart = cart,
         error =>  this.errorMessage = <any>error
       );*/
+  }
+  ngOnDestroy(){
+    this.subscription.unsubscribe();
   }
   /*getCartService(){
     console.log('getCartService()');
