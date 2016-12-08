@@ -14,16 +14,17 @@ import { HistoryService} from './guesser/history.service';
 
 import {LoginModule} from './shared/login/login.module';
 import {PrivateModule} from './shared/login/private.module';
+import {AuthenticationService} from './shared/login/authentication.service';
 
 import {Search} from "./home/search.pipe";
 
 @NgModule({
   imports: [BrowserModule, HttpModule, RouterModule.forRoot(routes), AboutModule, HomeModule, SharedModule.forRoot(), Ng2BootstrapModule, LoginModule, PrivateModule],
-  declarations: [AppComponent, Search],
+  declarations: [AppComponent],
   providers: [{
     provide: APP_BASE_HREF,
     useValue: '<%= APP_BASE %>'
-  }, CartService, HistoryService],
+  }, CartService, HistoryService, AuthenticationService],
   bootstrap: [AppComponent]
 
 })

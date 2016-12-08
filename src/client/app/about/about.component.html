@@ -1,4 +1,11 @@
 <!--<ul *ngFor="item of cart">
   <li >{{item.name}}</li>
 </ul>-->
-WIP
+
+<!--<div *ngIf="getUserInfo()">Welcome {{getUserInfo()}}!</div>
+<div *ngIf="!getUserInfo()">You need to log in first.</div>-->
+<b>Previous Orders:</b>
+<ul>
+  <li *ngFor="let order of getOrderList()">{{order}}</li>
+</ul>
+<button class="btn-sm btn-warning" (click)="clearOrderList()">Clear order history</button>

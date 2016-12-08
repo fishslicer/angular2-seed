@@ -46,7 +46,7 @@ export class AuthenticationService {
   }
 
   getUser(){
-    console.log(localStorage.getItem("user").name);
-    return localStorage.getItem("user");
+    //console.log(localStorage.getItem("user").name);
+    return JSON.stringify(localStorage.getItem("user"));
   }
 }

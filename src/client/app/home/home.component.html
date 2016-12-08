@@ -8,25 +8,48 @@
 <ul>
   <li *ngFor="let name of names">{{name}}</li>
 </ul>-->
-<br>
-<input [(ngModel)]="searchTerm" placeholder="Search">
-<table>
-  <tr>
-    <td>Item Name</td>
-    <td>Tag</td>
-    <td>Add to Cart / Quantity</td>
-  </tr>
-  <tr *ngFor="let item of (inventory)">
-    <td>{{item.name}}</td>
-    <td *ngIf="item.tags[0]">{{item.tags[0].tag}}</td>
-    <td>
-      <button id="add-to-cart-btn" class="btn btn-primary btn-sm" (click)="addToCart(item)">
-        <span class="glyphicon glyphicon-plus"></span>
-      </button>
-      <input id="cart-quantity" placeholder="1">
-    </td>
-  </tr>
-</table>
+<button *ngIf="!view" class="btn btn-secondary btn-sm" (click)="toggleView()">hide recomendations</button>
+<button *ngIf="view" class="btn btn-secondary btn-sm" (click)="toggleView()">show recomendations</button>
+<div *ngIf="!view">
+<span>
+  <b>Based on your history</b>
+  <ul *ngFor="let piece of getRecc(), let i = index">
+    <li>{{i+1 + ') ' + piece.name}}</li>
+  </ul>
 
+  <!--<div *ngFor="let item of (inventory)">
+
+  </div>-->
+</span>
+  <button class="btn btn-danger btn-sm" (click)="resetHistory()">reset</button>
+</div>
+<br>
+<div>
+  <input [(ngModel)]="searchTerm" placeholder="Search">
+  <div id="shopping-view">
+  <table class="table">
+    <tr>
+      <td></td>
+      <td>Item Name</td>
+      <td>Price</td>
+      <td>Type</td>
+      <td>Add to Cart</td>
+    </tr>
+    <tr *ngFor="let item of (inventory)">
+      <td><img alt="item.image" [src]="'../assets/images/' + item.image" style="width:100px; height: 100px;"/></td>
+      <td>{{item.name}}</td>
+      <td>${{item.price}}</td>
+      <!--<td *ngIf="item.tags[0]">{{item.tags[0].tag}}</td>-->
+      <td>{{item.type}}</td>
+      <td>
+        <button id="add-to-cart-btn" class="btn btn-primary btn-sm" (click)="addToCart(item)">
+          <span class="glyphicon glyphicon-plus"></span>
+        </button>
+        <!--<input id="cart-quantity" placeholder="1">-->
+      </td>
+    </tr>
+  </table>
+  </div>
+</div>
 
 

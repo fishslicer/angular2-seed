@@ -1,7 +1,18 @@
 <!--<div class="glyphicon glyphicon-shopping-cart"></div>-->
-<table>
-  <tr *ngFor="let item of cart">
+<h3>CART</h3>
+<table class="table">
+  <tr>
+    <td>Price</td>
+    <td>Item Name</td>
+    <td>Type</td>
+    <td></td>
+  </tr>
+  <tr *ngFor="let item of getCart()">
+    <td>${{item.price}}</td>
     <td>{{item.name}}</td>
+    <td>{{item.type}}</td>
+    <td><button type="button" class="btn btn-secondary" (click)="deleteItem(item)">&times;</button></td>
   </tr>
 </table>
+Total: $<span>{{totalPrice()}}</span>
 <button (click)="checkout()">Checkout</button>

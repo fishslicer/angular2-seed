@@ -8,18 +8,31 @@ import {BehaviorSubject} from 'rxjs/Rx.js';
 @Injectable()
 export class CartService{
   public cart:Item[] = [];
+  public orderList: string[];
+  public price: number;
   public cartChanged = new EventEmitter<Object>();
   //localStorage.setItem("user", authenticatedUser);
   constructor(public historyService: HistoryService){
     if(localStorage.getItem("cart")){
       this.cart = JSON.parse(localStorage.getItem("cart"));
+
     }
     else this.cart = [];
+    if(localStorage.getItem("orderList")){
+      this.orderList = JSON.parse(localStorage.getItem("orderList"));
+    }
+    else this.orderList = [];
   }
 
   updateCart(){
     //console.log('cart size: ' + this.cart.length);
     localStorage.setItem("cart", JSON.stringify(this.cart));
+    this.price = 0;
+    if(this.cart) {
+      for (var i = 0; i < this.cart.length; i++) {
+        this.price += this.cart[i].price;
+      }
+    }
     this.cartChanged.emit(this.cart);
   }
   addItem(item:Item){
@@ -29,18 +42,26 @@ export class CartService{
 
   }
   deleteItem(item:Item){
-    //this.cart = this.cart.filter()
+    this.cart = this.cart.filter(function(i) {return i.id !== item.id} );
     this.updateCart();
   }
   checkout(){
-    console.log('cart wiped');
-    for(var i = 0; i < this.cart.length; i++){
-      this.historyService.cartItemIncrement(this.cart[i]);
+    if(this.totalPrice() > 0) {
+      var order: string = '';
+      console.log('cart wiped');
+      order = order + '-|<OrderID: ' + Math.floor(Math.random() * 999999 + 100000);
+      for (var i = 0; i < this.cart.length; i++) {
+        this.historyService.cartItemIncrement(this.cart[i]);
+        order = order + ' ,[ ' + this.cart[i].name + ' id: (' + this.cart[i].id + ')]';
+      }
+      order = order + " - Total: $" + this.totalPrice() + '>|-';
+      this.orderList.push(order);
+      localStorage.setItem("orderList", JSON.stringify(this.orderList));
+      this.historyService.interestReducer('nil');
+      this.historyService.updateHistory();
+      this.cart = [];
+      this.updateCart();
     }
-    this.historyService.interestReducer('nil');
-    this.historyService.updateHistory();
-    this.cart = [];
-    this.updateCart();
   }
   /*getCart(): Promise<Item[]> {
     return Promise.resolve(this.cart);
@@ -56,6 +77,16 @@ export class CartService{
 
   getCartEmitter(){
     return this.cartChanged;
+  }
+  totalPrice(){
+    return this.price;
+  }
+  getOrderList(){
+    return this.orderList
+  }
+  clearOrderList(){
+    this.orderList = [];
+    localStorage.setItem("orderList", JSON.stringify(this.orderList));
   }
 
 }

@@ -3,7 +3,7 @@ import {AuthenticationService, User} from './authentication.service'
 
 @Component({
   selector: 'login-form',
-  providers: [AuthenticationService],
+  providers: [],
   template: `
         <div class="container" >
             <div class="title">

@@ -33,3 +33,9 @@ ul {
 table{
 
 }
+#shopping-view{
+  overflow-y: scroll;
+  max-height: 400px;
+  height: auto;
+
+}

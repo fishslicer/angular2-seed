@@ -3,7 +3,7 @@
     "id": 0,
     "name": "item 0",
     "type": "electronics",
-    "price": "$126.94",
+    "price": 126.94,
     "image": "0.jpg",
     "tags": [
       {
@@ -48,8 +48,8 @@
     "id": 1,
     "name": "item 1",
     "type": "electronics",
-    "price": "$339.63",
-    "image": "1.jpg",
+    "price": 339.63,
+    "image": "0.jpg",
     "tags": [
       {
         "id": 0,
@@ -85,8 +85,8 @@
     "id": 2,
     "name": "item 2",
     "type": "electronics",
-    "price": "$149.02",
-    "image": "2.jpg",
+    "price": 149.02,
+    "image": "0.jpg",
     "tags": [
       {
         "id": 0,
@@ -114,8 +114,8 @@
     "id": 3,
     "name": "item 3",
     "type": "electronics",
-    "price": "$196.6",
-    "image": "3.jpg",
+    "price": 196.6,
+    "image": "0.jpg",
     "tags": [
       {
         "id": 0,
@@ -155,8 +155,8 @@
     "id": 4,
     "name": "item 4",
     "type": "electronics",
-    "price": "$55.15",
-    "image": "4.jpg",
+    "price": 55.15,
+    "image": "0.jpg",
     "tags": [
       {
         "id": 0,
@@ -208,8 +208,8 @@
     "id": 5,
     "name": "item 5",
     "type": "electronics",
-    "price": "$235.07",
-    "image": "5.jpg",
+    "price": 235.07,
+    "image": "0.jpg",
     "tags": [
       {
         "id": 0,
@@ -225,8 +225,8 @@
     "id": 6,
     "name": "item 6",
     "type": "electronics",
-    "price": "$177.23",
-    "image": "6.jpg",
+    "price": 177.23,
+    "image": "0.jpg",
     "tags": [
       {
         "id": 0,
@@ -282,8 +282,8 @@
     "id": 7,
     "name": "item 7",
     "type": "electronics",
-    "price": "$166.93",
-    "image": "7.jpg",
+    "price": 166.93,
+    "image": "0.jpg",
     "tags": [
       {
         "id": 0,
@@ -331,8 +331,8 @@
     "id": 8,
     "name": "item 8",
     "type": "electronics",
-    "price": "$206.07",
-    "image": "8.jpg",
+    "price": 206.07,
+    "image": "0.jpg",
     "tags": [
       {
         "id": 0,
@@ -388,8 +388,8 @@
     "id": 9,
     "name": "item 9",
     "type": "electronics",
-    "price": "$109.47",
-    "image": "9.jpg",
+    "price": 109.47,
+    "image": "0.jpg",
     "tags": [
       {
         "id": 0,
@@ -445,8 +445,8 @@
     "id": 10,
     "name": "item 10",
     "type": "books",
-    "price": "$33.33",
-    "image": "10.jpg",
+    "price": 33.33,
+    "image": "1.jpg",
     "tags": [
       {
         "id": 0,
@@ -482,8 +482,8 @@
     "id": 11,
     "name": "item 11",
     "type": "books",
-    "price": "$28.58",
-    "image": "11.jpg",
+    "price": 28.58,
+    "image": "1.jpg",
     "tags": [
       {
         "id": 0,
@@ -507,8 +507,8 @@
     "id": 12,
     "name": "item 12",
     "type": "books",
-    "price": "$194.18",
-    "image": "12.jpg",
+    "price": 194.18,
+    "image": "1.jpg",
     "tags": [
       {
         "id": 0,
@@ -548,8 +548,8 @@
     "id": 13,
     "name": "item 13",
     "type": "books",
-    "price": "$279.35",
-    "image": "13.jpg",
+    "price": 279.35,
+    "image": "1.jpg",
     "tags": [
       {
         "id": 0,
@@ -581,8 +581,8 @@
     "id": 14,
     "name": "item 14",
     "type": "books",
-    "price": "$326.58",
-    "image": "14.jpg",
+    "price": 326.58,
+    "image": "1.jpg",
     "tags": [
       {
         "id": 0,
@@ -598,8 +598,8 @@
     "id": 15,
     "name": "item 15",
     "type": "books",
-    "price": "$303.76",
-    "image": "15.jpg",
+    "price": 303.76,
+    "image": "1.jpg",
     "tags": [
       {
         "id": 0,
@@ -619,8 +619,8 @@
     "id": 16,
     "name": "item 16",
     "type": "books",
-    "price": "$399.12",
-    "image": "16.jpg",
+    "price": 399.12,
+    "image": "1.jpg",
     "tags": [
       {
         "id": 0,
@@ -656,8 +656,8 @@
     "id": 17,
     "name": "item 17",
     "type": "books",
-    "price": "$321.03",
-    "image": "17.jpg",
+    "price": 321.03,
+    "image": "1.jpg",
     "tags": [
       {
         "id": 0,
@@ -713,8 +713,8 @@
     "id": 18,
     "name": "item 18",
     "type": "books",
-    "price": "$314.87",
-    "image": "18.jpg",
+    "price": 314.87,
+    "image": "1.jpg",
     "tags": [
       {
         "id": 0,
@@ -742,8 +742,8 @@
     "id": 19,
     "name": "item 19",
     "type": "books",
-    "price": "$72.14",
-    "image": "19.jpg",
+    "price": 72.14,
+    "image": "1.jpg",
     "tags": [
       {
         "id": 0,
@@ -763,8 +763,8 @@
     "id": 20,
     "name": "item 20",
     "type": "books",
-    "price": "$238.89",
-    "image": "20.jpg",
+    "price": 238.89,
+    "image": "1.jpg",
     "tags": [
       {
         "id": 0,
@@ -800,8 +800,8 @@
     "id": 21,
     "name": "item 21",
     "type": "books",
-    "price": "$170.18",
-    "image": "21.jpg",
+    "price": 170.18,
+    "image": "1.jpg",
     "tags": [
       {
         "id": 0,
@@ -857,8 +857,8 @@
     "id": 22,
     "name": "item 22",
     "type": "books",
-    "price": "$353.32",
-    "image": "22.jpg",
+    "price": 353.32,
+    "image": "1.jpg",
     "tags": [
       {
         "id": 0,
@@ -886,8 +886,8 @@
     "id": 23,
     "name": "item 23",
     "type": "books",
-    "price": "$142.81",
-    "image": "23.jpg",
+    "price": 142.81,
+    "image": "1.jpg",
     "tags": [
       {
         "id": 0,
@@ -939,8 +939,8 @@
     "id": 24,
     "name": "item 24",
     "type": "drugs",
-    "price": "$215.75",
-    "image": "24.jpg",
+    "price": 215.75,
+    "image": "2.jpg",
     "tags": [
       {
         "id": 0,
@@ -996,8 +996,8 @@
     "id": 25,
     "name": "item 25",
     "type": "drugs",
-    "price": "$271.44",
-    "image": "25.jpg",
+    "price": 271.44,
+    "image": "2.jpg",
     "tags": [
       {
         "id": 0,
@@ -1045,8 +1045,8 @@
     "id": 26,
     "name": "item 26",
     "type": "drugs",
-    "price": "$241.43",
-    "image": "26.jpg",
+    "price": 241.43,
+    "image": "2.jpg",
     "tags": [
       {
         "id": 0,
@@ -1070,8 +1070,8 @@
     "id": 27,
     "name": "item 27",
     "type": "drugs",
-    "price": "$310.41",
-    "image": "27.jpg",
+    "price": 310.41,
+    "image": "2.jpg",
     "tags": [
       {
         "id": 0,
@@ -1095,8 +1095,8 @@
     "id": 28,
     "name": "item 28",
     "type": "drugs",
-    "price": "$298.13",
-    "image": "28.jpg",
+    "price": 298.13,
+    "image": "2.jpg",
     "tags": [
       {
         "id": 0,
@@ -1116,8 +1116,8 @@
     "id": 29,
     "name": "item 29",
     "type": "drugs",
-    "price": "$11.4",
-    "image": "29.jpg",
+    "price": 11.4,
+    "image": "2.jpg",
     "tags": [
       {
         "id": 0,
@@ -1145,8 +1145,8 @@
     "id": 30,
     "name": "item 30",
     "type": "drugs",
-    "price": "$300.78",
-    "image": "30.jpg",
+    "price": 300.78,
+    "image": "2.jpg",
     "tags": [
       {
         "id": 0,
@@ -1174,8 +1174,8 @@
     "id": 31,
     "name": "item 31",
     "type": "drugs",
-    "price": "$9.2",
-    "image": "31.jpg",
+    "price": 9.2,
+    "image": "2.jpg",
     "tags": [
       {
         "id": 0,
@@ -1215,8 +1215,8 @@
     "id": 32,
     "name": "item 32",
     "type": "drugs",
-    "price": "$340.64",
-    "image": "32.jpg",
+    "price": 340.64,
+    "image": "2.jpg",
     "tags": [
       {
         "id": 0,
@@ -1272,8 +1272,8 @@
     "id": 33,
     "name": "item 33",
     "type": "drugs",
-    "price": "$296.84",
-    "image": "33.jpg",
+    "price": 296.84,
+    "image": "2.jpg",
     "tags": [
       {
         "id": 0,
@@ -1321,8 +1321,8 @@
     "id": 34,
     "name": "item 34",
     "type": "drugs",
-    "price": "$13.73",
-    "image": "34.jpg",
+    "price": 13.73,
+    "image": "2.jpg",
     "tags": [
       {
         "id": 0,
@@ -1338,8 +1338,8 @@
     "id": 35,
     "name": "item 35",
     "type": "drugs",
-    "price": "$176.85",
-    "image": "35.jpg",
+    "price": 176.85,
+    "image": "2.jpg",
     "tags": [
       {
         "id": 0,
@@ -1387,8 +1387,8 @@
     "id": 36,
     "name": "item 36",
     "type": "drugs",
-    "price": "$12.37",
-    "image": "36.jpg",
+    "price": 12.37,
+    "image": "2.jpg",
     "tags": [
       {
         "id": 0,
@@ -1400,8 +1400,8 @@
     "id": 37,
     "name": "item 37",
     "type": "drugs",
-    "price": "$248.02",
-    "image": "37.jpg",
+    "price": 248.02,
+    "image": "2.jpg",
     "tags": [
       {
         "id": 0,
@@ -1417,8 +1417,8 @@
     "id": 38,
     "name": "item 38",
     "type": "drugs",
-    "price": "$193.4",
-    "image": "38.jpg",
+    "price": 193.4,
+    "image": "2.jpg",
     "tags": [
       {
         "id": 0,
@@ -1462,8 +1462,8 @@
     "id": 39,
     "name": "item 39",
     "type": "drugs",
-    "price": "$314.25",
-    "image": "39.jpg",
+    "price": 314.25,
+    "image": "2.jpg",
     "tags": [
       {
         "id": 0,
@@ -1511,8 +1511,8 @@
     "id": 40,
     "name": "item 40",
     "type": "drugs",
-    "price": "$3.75",
-    "image": "40.jpg",
+    "price": 3.75,
+    "image": "2.jpg",
     "tags": [
       {
         "id": 0,
@@ -1540,8 +1540,8 @@
     "id": 41,
     "name": "item 41",
     "type": "office supplies",
-    "price": "$169.94",
-    "image": "41.jpg",
+    "price": 169.94,
+    "image": "3.jpg",
     "tags": [
       {
         "id": 0,
@@ -1581,8 +1581,8 @@
     "id": 42,
     "name": "item 42",
     "type": "office supplies",
-    "price": "$369.34",
-    "image": "42.jpg",
+    "price": 369.34,
+    "image": "3.jpg",
     "tags": [
       {
         "id": 0,
@@ -1610,8 +1610,8 @@
     "id": 43,
     "name": "item 43",
     "type": "office supplies",
-    "price": "$332.95",
-    "image": "43.jpg",
+    "price": 332.95,
+    "image": "3.jpg",
     "tags": [
       {
         "id": 0,
@@ -1635,8 +1635,8 @@
     "id": 44,
     "name": "item 44",
     "type": "office supplies",
-    "price": "$195.97",
-    "image": "44.jpg",
+    "price": 195.97,
+    "image": "3.jpg",
     "tags": [
       {
         "id": 0,
@@ -1660,8 +1660,8 @@
     "id": 45,
     "name": "item 45",
     "type": "office supplies",
-    "price": "$184.34",
-    "image": "45.jpg",
+    "price": 184.34,
+    "image": "3.jpg",
     "tags": [
       {
         "id": 0,
@@ -1701,8 +1701,8 @@
     "id": 46,
     "name": "item 46",
     "type": "office supplies",
-    "price": "$198.66",
-    "image": "46.jpg",
+    "price": 198.66,
+    "image": "3.jpg",
     "tags": [
       {
         "id": 0,
@@ -1754,8 +1754,8 @@
     "id": 47,
     "name": "item 47",
     "type": "office supplies",
-    "price": "$314.7",
-    "image": "47.jpg",
+    "price": 314.7,
+    "image": "3.jpg",
     "tags": [
       {
         "id": 0,
@@ -1799,8 +1799,8 @@
     "id": 48,
     "name": "item 48",
     "type": "office supplies",
-    "price": "$264.37",
-    "image": "48.jpg",
+    "price": 264.37,
+    "image": "3.jpg",
     "tags": [
       {
         "id": 0,
@@ -1824,8 +1824,8 @@
     "id": 49,
     "name": "item 49",
     "type": "office supplies",
-    "price": "$312.22",
-    "image": "49.jpg",
+    "price": 312.22,
+    "image": "3.jpg",
     "tags": [
       {
         "id": 0,
@@ -1849,8 +1849,8 @@
     "id": 50,
     "name": "item 50",
     "type": "office supplies",
-    "price": "$193.09",
-    "image": "50.jpg",
+    "price": 193.09,
+    "image": "3.jpg",
     "tags": [
       {
         "id": 0,
@@ -1890,8 +1890,8 @@
     "id": 51,
     "name": "item 51",
     "type": "office supplies",
-    "price": "$245.69",
-    "image": "51.jpg",
+    "price": 245.69,
+    "image": "3.jpg",
     "tags": [
       {
         "id": 0,
@@ -1947,8 +1947,8 @@
     "id": 52,
     "name": "item 52",
     "type": "office supplies",
-    "price": "$73.35",
-    "image": "52.jpg",
+    "price": 73.35,
+    "image": "3.jpg",
     "tags": [
       {
         "id": 0,
@@ -1976,8 +1976,8 @@
     "id": 53,
     "name": "item 53",
     "type": "office supplies",
-    "price": "$154.75",
-    "image": "53.jpg",
+    "price": 154.75,
+    "image": "3.jpg",
     "tags": [
       {
         "id": 0,
@@ -2001,8 +2001,8 @@
     "id": 54,
     "name": "item 54",
     "type": "office supplies",
-    "price": "$195.33",
-    "image": "54.jpg",
+    "price": 195.33,
+    "image": "3.jpg",
     "tags": [
       {
         "id": 0,
@@ -2042,8 +2042,8 @@
     "id": 55,
     "name": "item 55",
     "type": "office supplies",
-    "price": "$306.84",
-    "image": "55.jpg",
+    "price": 306.84,
+    "image": "3.jpg",
     "tags": [
       {
         "id": 0,
@@ -2054,9 +2054,9 @@
   {
     "id": 56,
     "name": "item 56",
-    "type": "",
-    "price": "$246.21",
-    "image": "56.jpg",
+    "type": "office supplies",
+    "price": 246.21,
+    "image": "3.jpg",
     "tags": [
       {
         "id": 0,
@@ -2092,8 +2092,8 @@
     "id": 57,
     "name": "item 57",
     "type": "office supplies",
-    "price": "$275.64",
-    "image": "57.jpg",
+    "price": 275.64,
+    "image": "3.jpg",
     "tags": [
       {
         "id": 0,
@@ -2105,8 +2105,8 @@
     "id": 58,
     "name": "item 58",
     "type": "office supplies",
-    "price": "$62.76",
-    "image": "58.jpg",
+    "price": 62.76,
+    "image": "3.jpg",
     "tags": [
       {
         "id": 0,
@@ -2130,8 +2130,8 @@
     "id": 59,
     "name": "item 59",
     "type": "office supplies",
-    "price": "$282.62",
-    "image": "59.jpg",
+    "price": 282.62,
+    "image": "3.jpg",
     "tags": [
       {
         "id": 0,
@@ -2159,8 +2159,8 @@
     "id": 60,
     "name": "item 60",
     "type": "office supplies",
-    "price": "$164.48",
-    "image": "60.jpg",
+    "price": 164.48,
+    "image": "3.jpg",
     "tags": [
       {
         "id": 0,
@@ -2212,8 +2212,8 @@
     "id": 61,
     "name": "item 61",
     "type": "office supplies",
-    "price": "$320.93",
-    "image": "61.jpg",
+    "price": 320.93,
+    "image": "3.jpg",
     "tags": [
       {
         "id": 0,
@@ -2229,8 +2229,8 @@
     "id": 62,
     "name": "item 62",
     "type": "office supplies",
-    "price": "$360.64",
-    "image": "62.jpg",
+    "price": 360.64,
+    "image": "3.jpg",
     "tags": [
       {
         "id": 0,
@@ -2270,8 +2270,8 @@
     "id": 63,
     "name": "item 63",
     "type": "office supplies",
-    "price": "$308.81",
-    "image": "63.jpg",
+    "price": 308.81,
+    "image": "3.jpg",
     "tags": [
       {
         "id": 0,
@@ -2295,8 +2295,8 @@
     "id": 64,
     "name": "item 64",
     "type": "office supplies",
-    "price": "$13.99",
-    "image": "64.jpg",
+    "price": 13.99,
+    "image": "3.jpg",
     "tags": [
       {
         "id": 0,
@@ -2336,8 +2336,8 @@
     "id": 65,
     "name": "item 65",
     "type": "office supplies",
-    "price": "$336.3",
-    "image": "65.jpg",
+    "price": 336.3,
+    "image": "3.jpg",
     "tags": [
       {
         "id": 0,
@@ -2353,8 +2353,8 @@
     "id": 66,
     "name": "item 66",
     "type": "tools",
-    "price": "$219.84",
-    "image": "66.jpg",
+    "price": 219.84,
+    "image": "4.jpg",
     "tags": [
       {
         "id": 0,
@@ -2366,8 +2366,8 @@
     "id": 67,
     "name": "item 67",
     "type": "tools",
-    "price": "$340.34",
-    "image": "67.jpg",
+    "price": 340.34,
+    "image": "4.jpg",
     "tags": [
       {
         "id": 0,
@@ -2379,8 +2379,8 @@
     "id": 68,
     "name": "item 68",
     "type": "tools",
-    "price": "$283.51",
-    "image": "68.jpg",
+    "price": 283.51,
+    "image": "4.jpg",
     "tags": [
       {
         "id": 0,
@@ -2408,8 +2408,8 @@
     "id": 69,
     "name": "item 69",
     "type": "tools",
-    "price": "$306.2",
-    "image": "69.jpg",
+    "price": 306.2,
+    "image": "4.jpg",
     "tags": [
       {
         "id": 0,
@@ -2437,8 +2437,8 @@
     "id": 70,
     "name": "item 70",
     "type": "tools",
-    "price": "$313.93",
-    "image": "70.jpg",
+    "price": 313.93,
+    "image": "4.jpg",
     "tags": [
       {
         "id": 0,
@@ -2450,8 +2450,8 @@
     "id": 71,
     "name": "item 71",
     "type": "tools",
-    "price": "$56.61",
-    "image": "71.jpg",
+    "price": 56.61,
+    "image": "4.jpg",
     "tags": [
       {
         "id": 0,
@@ -2483,8 +2483,8 @@
     "id": 72,
     "name": "item 72",
     "type": "tools",
-    "price": "$287.38",
-    "image": "72.jpg",
+    "price": 287.38,
+    "image": "4.jpg",
     "tags": [
       {
         "id": 0,
@@ -2508,8 +2508,8 @@
     "id": 73,
     "name": "item 73",
     "type": "tools",
-    "price": "$351.72",
-    "image": "73.jpg",
+    "price": 351.72,
+    "image": "4.jpg",
     "tags": [
       {
         "id": 0,
@@ -2549,8 +2549,8 @@
     "id": 74,
     "name": "item 74",
     "type": "tools",
-    "price": "$305.75",
-    "image": "74.jpg",
+    "price": 305.75,
+    "image": "4.jpg",
     "tags": [
       {
         "id": 0,
@@ -2594,8 +2594,8 @@
     "id": 75,
     "name": "item 75",
     "type": "tools",
-    "price": "$331.49",
-    "image": "75.jpg",
+    "price": 331.49,
+    "image": "4.jpg",
     "tags": [
       {
         "id": 0,
@@ -2607,8 +2607,8 @@
     "id": 76,
     "name": "item 76",
     "type": "tools",
-    "price": "$274.04",
-    "image": "76.jpg",
+    "price": 274.04,
+    "image": "4.jpg",
     "tags": [
       {
         "id": 0,
@@ -2660,8 +2660,8 @@
     "id": 77,
     "name": "item 77",
     "type": "tools",
-    "price": "$380.69",
-    "image": "77.jpg",
+    "price": 380.69,
+    "image": "4.jpg",
     "tags": [
       {
         "id": 0,
@@ -2693,8 +2693,8 @@
     "id": 78,
     "name": "item 78",
     "type": "tools",
-    "price": "$45.23",
-    "image": "78.jpg",
+    "price": 45.23,
+    "image": "4.jpg",
     "tags": [
       {
         "id": 0,
@@ -2726,8 +2726,8 @@
     "id": 79,
     "name": "item 79",
     "type": "tools",
-    "price": "$107.68",
-    "image": "79.jpg",
+    "price": 107.68,
+    "image": "4.jpg",
     "tags": [
       {
         "id": 0,
@@ -2779,8 +2779,8 @@
     "id": 80,
     "name": "item 80",
     "type": "tools",
-    "price": "$180.71",
-    "image": "80.jpg",
+    "price": 180.71,
+    "image": "4.jpg",
     "tags": [
       {
         "id": 0,
@@ -2832,8 +2832,8 @@
     "id": 81,
     "name": "item 81",
     "type": "tools",
-    "price": "$25.78",
-    "image": "81.jpg",
+    "price": 25.78,
+    "image": "4.jpg",
     "tags": [
       {
         "id": 0,
@@ -2849,8 +2849,8 @@
     "id": 82,
     "name": "item 82",
     "type": "tools",
-    "price": "$128.85",
-    "image": "82.jpg",
+    "price": 128.85,
+    "image": "4.jpg",
     "tags": [
       {
         "id": 0,
@@ -2886,8 +2886,8 @@
     "id": 83,
     "name": "item 83",
     "type": "movies",
-    "price": "$120.98",
-    "image": "83.jpg",
+    "price": 120.98,
+    "image": "5.jpg",
     "tags": [
       {
         "id": 0,
@@ -2935,8 +2935,8 @@
     "id": 84,
     "name": "item 84",
     "type": "movies",
-    "price": "$35.62",
-    "image": "84.jpg",
+    "price": 35.62,
+    "image": "5.jpg",
     "tags": [
       {
         "id": 0,
@@ -2980,8 +2980,8 @@
     "id": 85,
     "name": "item 85",
     "type": "movies",
-    "price": "$127.94",
-    "image": "85.jpg",
+    "price": 127.97,
+    "image": "5.jpg",
     "tags": [
       {
         "id": 0,
@@ -3021,8 +3021,8 @@
     "id": 86,
     "name": "item 86",
     "type": "movies",
-    "price": "$146.96",
-    "image": "86.jpg",
+    "price": 146.96,
+    "image": "5.jpg",
     "tags": [
       {
         "id": 0,
@@ -3033,9 +3033,9 @@
   {
     "id": 87,
     "name": "item 87",
-    "type": "",
-    "price": "$75.12",
-    "image": "87.jpg",
+    "type": "movies",
+    "price": 75.12,
+    "image": "5.jpg",
     "tags": [
       {
         "id": 0,
@@ -3051,8 +3051,8 @@
     "id": 88,
     "name": "item 88",
     "type": "movies",
-    "price": "$71",
-    "image": "88.jpg",
+    "price": 71,
+    "image": "5.jpg",
     "tags": [
       {
         "id": 0,
@@ -3084,8 +3084,8 @@
     "id": 89,
     "name": "item 89",
     "type": "movies",
-    "price": "$318.45",
-    "image": "89.jpg",
+    "price": 318.45,
+    "image": "5.jpg",
     "tags": [
       {
         "id": 0,
@@ -3097,8 +3097,8 @@
     "id": 90,
     "name": "item 90",
     "type": "movies",
-    "price": "$77.2",
-    "image": "90.jpg",
+    "price": 77.2,
+    "image": "5.jpg",
     "tags": [
       {
         "id": 0,
@@ -3114,8 +3114,8 @@
     "id": 91,
     "name": "item 91",
     "type": "games",
-    "price": "$336.22",
-    "image": "91.jpg",
+    "price": 336.22,
+    "image": "6.jpg",
     "tags": [
       {
         "id": 0,
@@ -3127,8 +3127,8 @@
     "id": 92,
     "name": "item 92",
     "type": "games",
-    "price": "$154.7",
-    "image": "92.jpg",
+    "price": 154.7,
+    "image": "6.jpg",
     "tags": [
       {
         "id": 0,
@@ -3160,8 +3160,8 @@
     "id": 93,
     "name": "item 93",
     "type": "games",
-    "price": "$162.96",
-    "image": "93.jpg",
+    "price": 162.96,
+    "image": "6.jpg",
     "tags": [
       {
         "id": 0,
@@ -3181,8 +3181,8 @@
     "id": 94,
     "name": "item 94",
     "type": "games",
-    "price": "$333.2",
-    "image": "94.jpg",
+    "price": 333.2,
+    "image": "6.jpg",
     "tags": [
       {
         "id": 0,
@@ -3210,8 +3210,8 @@
     "id": 95,
     "name": "item 95",
     "type": "games",
-    "price": "$18.69",
-    "image": "95.jpg",
+    "price": 18.69,
+    "image": "6.jpg",
     "tags": [
       {
         "id": 0,
@@ -3227,8 +3227,8 @@
     "id": 96,
     "name": "item 96",
     "type": "games",
-    "price": "$81.58",
-    "image": "96.jpg",
+    "price": 81.58,
+    "image": "6.jpg",
     "tags": [
       {
         "id": 0,
@@ -3256,8 +3256,8 @@
     "id": 97,
     "name": "item 97",
     "type": "games",
-    "price": "$275.08",
-    "image": "97.jpg",
+    "price": 275.08,
+    "image": "6.jpg",
     "tags": [
       {
         "id": 0,
@@ -3309,8 +3309,8 @@
     "id": 98,
     "name": "item 98",
     "type": "games",
-    "price": "$170.91",
-    "image": "98.jpg",
+    "price": 170.91,
+    "image": "6.jpg",
     "tags": [
       {
         "id": 0,
@@ -3366,8 +3366,8 @@
     "id": 99,
     "name": "item 99",
     "type": "games",
-    "price": "$356.72",
-    "image": "99.jpg",
+    "price": 356.72,
+    "image": "6.jpg",
     "tags": [
       {
         "id": 0,

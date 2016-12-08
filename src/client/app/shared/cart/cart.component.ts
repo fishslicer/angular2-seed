@@ -44,4 +44,13 @@ export class CartComponent implements OnInit{
   checkout(){
     this.cartService.checkout();
   }
+  totalPrice(){
+   return this.cartService.totalPrice();
+  }
+  deleteItem(item){
+    this.cartService.deleteItem(item);
+  }
+  getCart(){
+    return this.cartService.getCart();
+  }
 }

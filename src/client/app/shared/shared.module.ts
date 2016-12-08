@@ -8,6 +8,7 @@ import { NavbarComponent } from './navbar/index';
 import { NameListService } from './name-list/index';
 import { InventoryListService } from './inventory-list/index';
 import { CartComponent } from './cart/index';
+import { CarouselComponent} from '../home/carousel/carousel.component';
 
 /**
  * Do not specify providers for modules that might be imported by a lazy loaded module.
@@ -15,7 +16,7 @@ import { CartComponent } from './cart/index';
 
 @NgModule({
   imports: [CommonModule, RouterModule],
-  declarations: [ToolbarComponent, NavbarComponent, CartComponent],
+  declarations: [ToolbarComponent, NavbarComponent, CartComponent ],
   exports: [ToolbarComponent, NavbarComponent, CartComponent,
     CommonModule, FormsModule, RouterModule]
 })

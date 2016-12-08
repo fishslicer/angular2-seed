@@ -27,6 +27,7 @@ export class NavbarComponent {
   }
 
   toggleCart(){
+
     this.cartShown = !this.cartShown;
     this.cartShownOut.emit(this.cartShown);
     //console.log('toggling cart');
